@@ -1,0 +1,10 @@
+{
+    // Codespaceに表示される名前（任意）
+    "name": "ai-app-development",
+  
+    // Python 3.12 入りの公式devcontainerイメージを使う
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  
+    // コンテナ作成時にパッケージをインストール
+    "postCreateCommand": "pip install -r requirements.txt",
+}
